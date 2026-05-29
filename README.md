@@ -22,8 +22,8 @@ Explore e descubra o mundo com o **GPS Navegação**, um aplicativo moderno, ime
 
 <br/>
 
-<!-- BLACK-BLUE ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
+<!-- BLUE ANIMATED DIVIDER -->
+<img src="public/blue-divider.svg" width="100%">
 
 <!-- SOBRE O PROJETO / COMO FUNCIONA -->
 <div align="center">
@@ -34,18 +34,41 @@ Explore e descubra o mundo com o **GPS Navegação**, um aplicativo moderno, ime
 
 O aplicativo utiliza a **API de Geolocalização** nativa do navegador combinada com animações fluidas para exibir suas coordenadas geográficas de forma altamente visual e moderna.
 
-| Funcionalidade | O que faz / Como funciona |
-| :--- | :--- |
-| 🎯 **Precisão em Tempo Real** | Captura latitude, longitude, altitude, velocidade e margem de erro instantaneamente. |
-| 🗺️ **Mapa Dark Imersivo** | Interface com Leaflet (CartoDB Dark Matter) otimizada para navegação noturna fluida. |
-| 🌍 **Visualização 3D** | Elementos gráficos avançados com Three.js e React Three Fiber. |
-| 📍 **Pontos de Interesse** | Simulação e filtros em tempo real de Postos, Restaurantes, Hospitais, Farmácias e Mercados. |
-| 📱 **Design Glassmorphism** | Layout responsivo em vidro fosco com efeitos de borda iluminada por hover de alta fidelidade. |
+<div align="center">
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Funcionalidade</th>
+      <th>O que faz / Como funciona</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🎯 <strong>Precisão em Tempo Real</strong></td>
+      <td>Captura latitude, longitude, altitude, velocidade e margem de erro instantaneamente.</td>
+    </tr>
+    <tr>
+      <td>🗺️ <strong>Mapa Dark Imersivo</strong></td>
+      <td>Interface com Leaflet (CartoDB Dark Matter) otimizada para navegação noturna fluida.</td>
+    </tr>
+    <tr>
+      <td>📍 <strong>Pontos de Interesse</strong></td>
+      <td>Simulação e filtros em tempo real de Postos, Restaurantes, Hospitais, Farmácias e Mercados.</td>
+    </tr>
+    <tr>
+      <td>📱 <strong>Design Glassmorphism</strong></td>
+      <td>Layout responsivo em vidro fosco com efeitos de borda iluminada por hover de alta fidelidade.</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 <br/>
 
-<!-- BLACK-BLUE ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
+<!-- BLUE ANIMATED DIVIDER -->
+<img src="public/blue-divider.svg" width="100%">
 
 <!-- COMO RODAR -->
 <div align="center">
@@ -78,41 +101,78 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador e **autoriz
 
 <br/>
 
-<!-- BLACK-BLUE ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
+<!-- BLUE ANIMATED DIVIDER -->
+<img src="public/blue-divider.svg" width="100%">
 
 <!-- PAINÉIS E CATEGORIAS -->
 <div align="center">
 
 ### &nbsp; 🎮 Painéis & Categorias
 
+<br/>
+
+<h4>🟢 Indicadores de Sinal</h4>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Status</th>
+      <th>Significado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🟢 <strong>Ativo</strong></td>
+      <td>GPS conectado com precisão ideal.</td>
+    </tr>
+    <tr>
+      <td>🟡 <strong>Buscando</strong></td>
+      <td>Aguardando sinal ou permissão do navegador.</td>
+    </tr>
+    <tr>
+      <td>🔴 <strong>Erro</strong></td>
+      <td>Acesso negado ou sinal indisponível.</td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+<h4>📍 Filtros de Descoberta</h4>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Categoria</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>⛽ <strong>Postos</strong></td>
+      <td>Simula postos de gasolina ao redor.</td>
+    </tr>
+    <tr>
+      <td>🍔 <strong>Restaurantes</strong></td>
+      <td>Simula opções de gastronomia próximas.</td>
+    </tr>
+    <tr>
+      <td>🏥 <strong>Hospitais</strong></td>
+      <td>Simula hospitais e clínicas médicas.</td>
+    </tr>
+    <tr>
+      <td>💊 <strong>Farmácias</strong></td>
+      <td>Simula farmácias abertas no mapa.</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 <br/>
 
-<h4 align="center">🟢 Indicadores de Sinal</h4>
-
-| Status | Significado |
-| :--- | :--- |
-| 🟢 **Ativo** | GPS conectado com precisão ideal. |
-| 🟡 **Buscando** | Aguardando sinal ou permissão do navegador. |
-| 🔴 **Erro** | Acesso negado ou sinal indisponível. |
-
-<br/>
-
-<h4 align="center">📍 Filtros de Descoberta</h4>
-
-| Categoria | Descrição |
-| :--- | :--- |
-| ⛽ **Postos** | Simula postos de gasolina ao redor. |
-| 🍔 **Restaurantes** | Simula opções de gastronomia próximas. |
-| 🏥 **Hospitais** | Simula hospitais e clínicas médicas. |
-| 💊 **Farmácias** | Simula farmácias abertas no mapa. |
-
-<br/>
-
-<!-- BLACK-BLUE ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
+<!-- BLUE ANIMATED DIVIDER -->
+<img src="public/blue-divider.svg" width="100%">
 
 <!-- TECNOLOGIAS -->
 <div align="center">
@@ -122,7 +182,7 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador e **autoriz
 <br/>
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,threejs,tailwind&theme=dark" alt="Tecnologias" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind&theme=dark" alt="Tecnologias" />
 </a>
 
 <br/><br/>
@@ -133,13 +193,12 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador e **autoriz
 * **React 19** — Renderização de componentes declarativos reativos.
 * **TypeScript** — Código robusto, escalável e tipado estaticamente.
 * **Leaflet & React Leaflet** — Biblioteca open-source leve para mapas interativos.
-* **Three.js & React Three Fiber** — Gráficos 3D interativos e acelerados por hardware.
 * **Framer Motion (Motion)** — Animações e transições de interface ultra fluidas.
 
 <br/>
 
-<!-- BLACK-BLUE ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
+<!-- BLUE ANIMATED DIVIDER -->
+<img src="public/blue-divider.svg" width="100%">
 
 <!-- ESTRUTURA DO PROJETO -->
 <div align="center">
@@ -167,6 +226,7 @@ GPS-PDM/
 │   └── hooks/
 │       └── useGeolocation.ts ← Hook de gerenciamento da Geolocalização
 ├── public/                  ← Ícones e marcadores estáticos
+│   └── blue-divider.svg     ← Divisor animado
 ├── tsconfig.json            ← Configurações de TypeScript
 ├── package.json             ← Dependências e scripts do projeto
 └── README.md                ← Este arquivo
@@ -174,8 +234,8 @@ GPS-PDM/
 
 <br/>
 
-<!-- BLACK-BLUE ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
+<!-- BLUE ANIMATED DIVIDER -->
+<img src="public/blue-divider.svg" width="100%">
 
 <!-- FOOTER AND CREDITS -->
 <div align="center">
