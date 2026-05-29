@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:2563eb,100:30D158&height=230&section=header&text=GPS%20Navegação&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Sistema%20Avançado%20de%20Localização%20e%20Navegação&descAlignY=55&descSize=18&descColor=bfdbfe" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=230&section=header&text=GPS%20Navegação&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Sistema%20Avançado%20de%20Localização%20e%20Navegação&descAlignY=55&descSize=18&descColor=bfdbfe" />
 
 <br/>
 
@@ -16,14 +16,14 @@
 
 <br/>
 
-Explore e descubra o mundo com o **GPS Navegação**, um aplicativo moderno, imersivo e ultra-responsivo que rastreia sua localização em tempo real, calcula a precisão do sinal em um compasso dinâmico de alta fidelidade e permite descobrir pontos de interesse (POIs) ao seu redor em um mapa escuro elegante. 📍
+Explore e descubra o mundo com o **GPS Navegação**, um aplicativo moderno, imersivo e ultra-responsivo que rastreia sua localização em tempo real. Visualize seus dados de navegação em uma interface premium e descubra pontos de interesse (POIs) ao seu redor em um mapa escuro elegante. 📍
 
 </div>
 
 <br/>
 
-<!-- BLUE-GREEN ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:2563eb,100:30D158&height=25&section=footer" width="100%">
+<!-- BLACK-BLUE ANIMATED DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
 
 <!-- SOBRE O PROJETO / COMO FUNCIONA -->
 <div align="center">
@@ -32,20 +32,20 @@ Explore e descubra o mundo com o **GPS Navegação**, um aplicativo moderno, ime
 
 </div>
 
-O aplicativo utiliza a **API de Geolocalização** nativa do navegador combinada com um **Compasso Interativo via HTML5 Canvas** e animações fluidas para exibir suas coordenadas geográficas de forma altamente visual e moderna.
+O aplicativo utiliza a **API de Geolocalização** nativa do navegador combinada com animações fluidas para exibir suas coordenadas geográficas de forma altamente visual e moderna.
 
 | Funcionalidade | O que faz / Como funciona |
 | :--- | :--- |
 | 🎯 **Precisão em Tempo Real** | Captura latitude, longitude, altitude, velocidade e margem de erro instantaneamente. |
 | 🗺️ **Mapa Dark Imersivo** | Interface com Leaflet (CartoDB Dark Matter) otimizada para navegação noturna fluida. |
-| 🧭 **Bússola Dinâmica** | Compasso renderizado em Canvas 2D com interpolação e suavização de rotação por frame. |
+| 🌍 **Visualização 3D** | Elementos gráficos avançados com Three.js e React Three Fiber. |
 | 📍 **Pontos de Interesse** | Simulação e filtros em tempo real de Postos, Restaurantes, Hospitais, Farmácias e Mercados. |
 | 📱 **Design Glassmorphism** | Layout responsivo em vidro fosco com efeitos de borda iluminada por hover de alta fidelidade. |
 
 <br/>
 
-<!-- BLUE-GREEN ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:2563eb,100:30D158&height=25&section=footer" width="100%">
+<!-- BLACK-BLUE ANIMATED DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
 
 <!-- COMO RODAR -->
 <div align="center">
@@ -56,7 +56,7 @@ O aplicativo utiliza a **API de Geolocalização** nativa do navegador combinada
 
 #### 1. Prepare o projeto
 * **Se você baixou o ZIP (não via gitclone):**
-  Extraia o arquivo `GPS-PDM-main.zip` e abra o terminal diretamente na pasta do projeto extraído.
+  Extraia o arquivo e abra o terminal diretamente na pasta do projeto extraído.
 * **Se você clonou via Git:**
   ```bash
   git clone https://github.com/notcostaip/GPS-PDM.git
@@ -74,12 +74,12 @@ npm run dev
 ```
 
 #### 4. Abra no navegador
-Abra [http://localhost:3000](http://localhost:3000) no seu navegador e **autorize a permissão de geolocalização** para ver o mapa e a bússola carregarem com suas coordenadas exatas!
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador e **autorize a permissão de geolocalização** para ver o mapa carregar com suas coordenadas exatas!
 
 <br/>
 
-<!-- BLUE-GREEN ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:2563eb,100:30D158&height=25&section=footer" width="100%">
+<!-- BLACK-BLUE ANIMATED DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
 
 <!-- PAINÉIS E CATEGORIAS -->
 <div align="center">
@@ -90,69 +90,29 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador e **autoriz
 
 <br/>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="center">🟢 Indicadores de Sinal</h4>
-      <table width="100%">
-        <thead>
-          <tr>
-            <th>Status</th>
-            <th>Significado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>🟢 <strong>Ativo</strong></td>
-            <td>GPS conectado com precisão ideal.</td>
-          </tr>
-          <tr>
-            <td>🟡 <strong>Buscando</strong></td>
-            <td>Aguardando sinal ou permissão do navegador.</td>
-          </tr>
-          <tr>
-            <td>🔴 <strong>Erro</strong></td>
-            <td>Acesso negado ou sinal indisponível.</td>
-          </tr>
-        </tbody>
-      </table>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="center">📍 Filtros de Descoberta</h4>
-      <table width="100%">
-        <thead>
-          <tr>
-            <th>Categoria</th>
-            <th>Descrição</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>⛽ <strong>Postos</strong></td>
-            <td>Simula postos de gasolina ao redor.</td>
-          </tr>
-          <tr>
-            <td>🍔 <strong>Restaurantes</strong></td>
-            <td>Simula opções de gastronomia próximas.</td>
-          </tr>
-          <tr>
-            <td>🏥 <strong>Hospitais</strong></td>
-            <td>Simula hospitais e clínicas médicas.</td>
-          </tr>
-          <tr>
-            <td>💊 <strong>Farmácias</strong></td>
-            <td>Simula farmácias abertas no mapa.</td>
-          </tr>
-        </tbody>
-      </table>
-    </td>
-  </tr>
-</table>
+<h4 align="center">🟢 Indicadores de Sinal</h4>
+
+| Status | Significado |
+| :--- | :--- |
+| 🟢 **Ativo** | GPS conectado com precisão ideal. |
+| 🟡 **Buscando** | Aguardando sinal ou permissão do navegador. |
+| 🔴 **Erro** | Acesso negado ou sinal indisponível. |
 
 <br/>
 
-<!-- BLUE-GREEN ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:2563eb,100:30D158&height=25&section=footer" width="100%">
+<h4 align="center">📍 Filtros de Descoberta</h4>
+
+| Categoria | Descrição |
+| :--- | :--- |
+| ⛽ **Postos** | Simula postos de gasolina ao redor. |
+| 🍔 **Restaurantes** | Simula opções de gastronomia próximas. |
+| 🏥 **Hospitais** | Simula hospitais e clínicas médicas. |
+| 💊 **Farmácias** | Simula farmácias abertas no mapa. |
+
+<br/>
+
+<!-- BLACK-BLUE ANIMATED DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
 
 <!-- TECNOLOGIAS -->
 <div align="center">
@@ -175,12 +135,11 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador e **autoriz
 * **Leaflet & React Leaflet** — Biblioteca open-source leve para mapas interativos.
 * **Three.js & React Three Fiber** — Gráficos 3D interativos e acelerados por hardware.
 * **Framer Motion (Motion)** — Animações e transições de interface ultra fluidas.
-* **HTML5 Canvas API** — Renderização de bússola dinâmica com suavização vetorial.
 
 <br/>
 
-<!-- BLUE-GREEN ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:2563eb,100:30D158&height=25&section=footer" width="100%">
+<!-- BLACK-BLUE ANIMATED DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
 
 <!-- ESTRUTURA DO PROJETO -->
 <div align="center">
@@ -197,7 +156,6 @@ GPS-PDM/
 │   │   ├── layout.tsx       ← Configurações estruturais e fontes
 │   │   └── page.tsx         ← Ponto de entrada do app (Splash vs Dashboard)
 │   ├── components/
-│   │   ├── CompassHeading.tsx ← Bússola interativa via HTML5 Canvas
 │   │   ├── CoordinateDisplay.tsx ← Exibição e cópia de coordenadas
 │   │   ├── Dashboard.tsx    ← Painel principal de controle e POIs
 │   │   ├── GlassCard.tsx    ← Cartão com blur e bordas iluminadas
@@ -216,13 +174,13 @@ GPS-PDM/
 
 <br/>
 
-<!-- BLUE-GREEN ANIMATED DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:2563eb,100:30D158&height=25&section=footer" width="100%">
+<!-- BLACK-BLUE ANIMATED DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=25&section=footer" width="100%">
 
 <!-- FOOTER AND CREDITS -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f1a,50:2563eb,100:30D158&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050a12,100:2563eb&height=120&section=footer" />
 
 <br/>
 
